@@ -1,4 +1,4 @@
- .login-page {
+.login-page {
   width: 360px;
   padding: 8% 0 0;
   margin: auto;
@@ -81,7 +81,7 @@ ul {
 h2,
 h3,
 a {
-	color: #69f0bc;
+	color: #ecfcf6;
 }
 
 a {
@@ -92,7 +92,7 @@ a {
 
 .logo {
 	margin: 0;
-	font-size: 1.45em;
+	font-size: 1.55em;
 }
 
 .main-nav {
@@ -107,6 +107,7 @@ a {
 	display: block;
 }
 
+
 .main-nav a {
 	color: #e0e0e0;
 	font-size: .99em;
@@ -116,10 +117,14 @@ a {
 	color: #a3c3eb;
 }
 
+.title_nav
+{
+  margin-left: 10%;
+}
 
 
 .header {
-    margin: 0%;
+  margin:0;
 	padding-top: .5em;
 	padding-bottom: .5em;
 	border: 1px solid #919191;
@@ -142,18 +147,130 @@ a {
 		align-items: center;
     }
     .header{
-		width: 80%;
+		width: 100%;
 		margin: 0 auto;
-		max-width: 1150px;
+		max-width: 1850px;
+    
 	}
 	
 
+}
+#head_nav
+{
+  width: auto;
+  margin: 0;
+  height: 60px;
+  content: normal;
 }
 
 @media (min-width: 1025px) {
 	.header {
 		flex-direction: row;
+    display: flex;
 		justify-content: space-between;
 	}
 
+}
+
+.person_logo
+{
+  background-color:  whitesmoke;
+  height: 30px;
+  border-radius: 50%;
+}
+.person_logo:hover
+{
+  background-color:  #69f0bc;
+}
+
+#home_img
+{
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1750px;
+}
+
+.home_container {
+  float: left;
+  width: 50%;
+  height:280px;
+  margin-top: 10px;
+}
+.home_quote
+{
+  margin-top: 20px;
+  float: right;
+  background: linear-gradient(90deg, rgb(241, 211, 241) 0%, rgb(214, 216, 214) 50%);
+  border-radius: 10%;
+ /* background-color: rgb(226, 200, 200);*/
+  width: 32%;
+  height:550px;
+  margin-right: 10%;
+
+ 	box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.75);
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 10px;
+}
+.sym
+{
+  padding-left: 90%;
+}
+
+#center {
+  margin-top: 10%;
+  margin-left: 25%;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+.type_car
+{
+  margin-top: 45%;
+  margin-bottom: 30%;
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: #f0efef;
+  border: 1px solid rgb(48, 48, 48);
+ 
+  box-shadow: 0px 10px 20px 0px rgba(141, 141, 141, 0.75);
+  height: 360px;
+  border-radius: 5%;
+}
+
+.home_suv
+{
+  border-radius: 5%;
+  margin: 2%;
+  padding: 5%;
+  float:left; 
+  background:rgb(165, 160, 160);
+  width:25%;
+  height:280px;
+}
+.home_cedan
+{
+  border-radius: 5%;
+  margin: 2%;
+  float:left; 
+  background:rgb(212, 255, 212);
+  width:38%;
+  height:280px;
+}
+.home_luxury
+{
+  border-radius: 5%;
+  margin: 2%;
+  float:right;
+  background:rgb(211, 211, 219);
+  width:25%;
+  height:280px;;
+}
+
+.cars
+{
+  height: 500px;
+  margin-top: 5%;
+  border:3px solid red;
+  width: auto;
 }
